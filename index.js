@@ -18,7 +18,7 @@ app.get('/country', (req, res) => {
 });
 
 app.get('/ping', (req, res) => {
-    res.send('PONG')
+    res.send('PONGS')
 });
 // /products
 app.use('/products', productRoutes);
