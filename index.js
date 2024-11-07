@@ -25,6 +25,6 @@ app.use('/products', productRoutes);
 // /users
 app.use('/users', userRoutes);
 
-app.listen(PORT, () => {
-    console.log('Server is listenin on PORT :' + PORT);
+app.listen(8080, () => {
+    console.log('Server is listenin on PORT :' + 8080);
 })
